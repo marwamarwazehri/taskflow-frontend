@@ -5,8 +5,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "deploy": "npx angular-cli-ghpages --dir=dist/taskflow-frontend/browser --repo=https://github.com/libanux/task-manager-frontend.git --branch=gh-pages"
+    "build": "ng build --base-href /taskflow-frontend/",
+    "deploy": "npx angular-cli-ghpages --dir=dist/taskflow-frontend/browser --repo=https://github.com/marwamarwazehri/taskflow-frontend.git --branch=gh-pages --no-silent"
+
 
 
   },
